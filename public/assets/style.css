@@ -1,0 +1,19 @@
+.toeat {
+    position: relative;
+    float: left;
+}
+
+.eaten{
+    position: relative;
+    float: right;
+}
+
+.create-form{
+    overflow: auto;
+    position: relative;
+    float: bottom;
+}
+
+.clearfix {
+    overflow: auto;
+}
