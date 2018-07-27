@@ -3,6 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "mysql": "^2.16.0"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
@@ -11,18 +18,10 @@
     "type": "git",
     "url": "git+https://github.com/Etchmon/burger.git"
   },
-  "keywords": [],
-  "author": "",
+  "author": "etchmon",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Etchmon/burger/issues"
   },
-  "homepage": "https://github.com/Etchmon/burger#readme",
-  "dependencies": {
-    "body-parser": "^1.18.3",
-    "express": "^4.16.3",
-    "express-handlebars": "^3.0.0",
-    "mysql": "^2.16.0"
-  },
-  "devDependencies": {}
+  "homepage": "https://github.com/Etchmon/burger#readme"
 }
